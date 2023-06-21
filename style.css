@@ -145,7 +145,7 @@
     margin-top: 50px;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .box p {
@@ -206,12 +206,13 @@
     background-color: #555;
 }
 
-.sec2 p{
+.sec2 p {
     text-align: left;
     /* width: 410px; */
     /* color: #78909C !important; */
 }
-.btn2{
+
+.btn2 {
     border: 2px solid #ECEFF1;
     background-color: #ECEFF1;
     color: black;
@@ -227,7 +228,8 @@
     cursor: pointer;
     font-weight: 500;
 }
-.btn2:hover{
+
+.btn2:hover {
     box-shadow: 0 8px 16px #CFD8DC;
     margin-bottom: 20px;
     transition: all .2s ease-out;
@@ -236,13 +238,108 @@
     background-color: #CFD8DC;
 
 }
-.secondHalf{
+
+.secondHalf {
     display: flex;
     margin-top: 6rem;
 }
+
 .sec2 h3 {
     width: 570px;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: left;
+}
+
+.priceSec {
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading h4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.heading h1 {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.price-table{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    width: min(1600px,100%);
+    margin-top: 4rem
+}
+.price-card ul li{
+    background-color: #263238;
+    list-style: none;
+    margin-bottom: 0;
+    margin-bottom: 25px;
+    /* margin-top: -20px;   */
+}
+.price-table ul{
+    text-align: center;
+    background-color: #263238;
+    margin-top: 2rem;
+    margin: 2rem;
+    font-size: 17px;
+}
+.price{
+    background-color: #263238;
+    text-align: center;
+    color: #1de9b6 !important;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.price-card-header{
+    /* color: #263238; */
+    margin: 2rem;
+    background-color: #263238;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.price-card{
+        background-color: #263238;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: #263238;
+    width: 350px;
+    height: 600px;
+       
+
+}
+.text-muted{
+    color: #78909C !important;
+    margin-top: -20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.price-table{
+    padding: 2.25rem 2rem;
+}
+.btn-sm{
+    color: black;
+    border: 2px solid #1de9b6;
+    background-color: #1de9b6;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s ease-out;
+    box-shadow: 0 8px 16px rgba(29, 233, 182, 0.3);
+    cursor: pointer;
+}
+.btn-sm:hover{
+    color: white;
 }
