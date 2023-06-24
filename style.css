@@ -600,3 +600,51 @@ border-radius: 5px;
     justify-content: center;
     margin: 8rem;
 }
+
+
+.footer{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100%;
+}
+.lftfooter{
+    position: relative;
+    left: 100px;
+    width: 500px;
+}
+.lftfooter h2{
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.lftfooter p{
+    font-size: 14px;
+    color: #78909C !important;
+    text-align: left;
+    margin: 20px 0;
+}
+.rghtfooter{
+    display: flex;
+    position: relative;
+    left: 250px;
+    width: 60%;
+}
+.ftrow{
+    margin: 0 25px;
+}
+.ftrow h4{
+    font-weight: 500;
+}
+.ftrow p{
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 14px;
+}
+.center p{
+    text-align: center;
+    margin: 4rem;
+    color: #78909C !important;
+    font-size: 90%;
+}
